@@ -34,7 +34,7 @@ python youtrack_discord_notifier.py
 6. if you want to test in production you have to set the DONT_SEND_FLAG to false to start sending POST requests to the server
 7. By default, the script uses JetBrains’ public YouTrack as the BASE_URL. Replace this with your own YouTrack instance eg. https://youtrack.mycompany.com/api
 8. Go to your YouTrack profile and generate a Permanent Token 
-9. Then paste your token under PERMANENT_TOKEN where it says "<YOUR_JETBRAINS_PERMANENT_TOKEN>/678U6J "
+9. Then paste your token under PERMANENT_TOKEN where it says "<YOUR_JETBRAINS_PERMANENT_TOKEN>"
 10. By default, the script poll is set to 60 sec. You can increase or decrease this interval if needed
 
 
